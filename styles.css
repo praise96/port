@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', 'sans-serif';
+    box-sizing: border-box;
+}
+
+body {
+    background: #080808;
+    color: #ffffff;
+    margin: 0; /* Remove default body margin */
+}
+
+header {
+    background-image: url(images/background-removebg-preview.png);
+    background-size: cover;
+    padding: 20px 0; /* Adjust padding as needed */
+    width: 40%;
+    height: 100vh;
+    background-size: cover;
+    position: absolute;
+    bottom: 10;
+    right: 100px;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end; /* Change this line to shift the logo to the far right */
+    align-items: center;
+    max-width: 1900px;
+    margin: 0 auto;
+    padding: 0 50px; /* Adjust padding as needed */
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ffffff; /* Adjust logo color */
+    margin-right: 170%; 
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li{
+
+     margin-right: 40px;
+     position: relative;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff; /* Adjust link color */
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+nav ul li a::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+
+}
+.header-text{
+    padding:120px;
+    font-size: 30px;
+}
+.header-text h1{
+    font-size: 60px;
+    margin-top: 20px;
+}
+.header-text h1 span{
+    color: #ff004f;
+}
+
+/* ... other styles ... */
+
+.tab-contents {
+    display: none;
+}
+
+.tab-contents.active-tab {
+    display: block;
+}
+
+
+

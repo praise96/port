@@ -535,7 +535,7 @@ nav .fas{
 }
 
 /* Mobile styles (480px and below) */
-@media only screen and (max-width: 715px) {
+@media only screen and (max-width: 768px) {
     /* Adjustments for mobile screens */
     header{
         background-image: url(images/okkkkkkk-removebg-preview.1.png);
@@ -562,7 +562,7 @@ nav .fas{
             padding-top: 50px;
             letter-spacing: -1px;
             display: flex;
-            margin-right: -6px;
+            margin-right: -10px;
             font-size: 0.8em;
             margin-top: 10px;
         }
@@ -576,7 +576,7 @@ nav .fas{
         .logo {
             margin-right: 5px;
             padding-top: 100px;
-            size: 12px;
+            size: 13px;
             margin-top: 10px;
             
         }

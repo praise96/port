@@ -559,7 +559,7 @@ nav .fas{
         nav  ul{
             top: 0;
             right: 0;
-            padding-top: 20px;
+            padding-top: 50px;
             letter-spacing: -1px;
             display: flex;
             margin-right: -40px;
@@ -573,8 +573,8 @@ nav .fas{
         }
     
         .logo {
-            margin-right: 10px;
-            padding-top: 50px;
+            margin-right: 5px;
+            padding-top: 100px;
             size: 5px;
             
         }

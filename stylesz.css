@@ -560,6 +560,10 @@ nav .fas{
             top: 0;
             right: 0;
             padding-top: 20px;
+            letter-spacing: -1px;
+            display: flex;
+            margin-right: -100px;
+
 
         }
 

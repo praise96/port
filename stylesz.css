@@ -564,7 +564,7 @@ nav .fas{
             display: flex;
             margin-right: -30px;
             font-size: 0.8em;
-            margin-bottom: 100px;
+            margin-bottom: 50px;
         }
 
     
@@ -574,10 +574,9 @@ nav .fas{
     
         .logo {
             margin-right: 10px;
-            padding-bottom: 60px;
+            padding-bottom: 40px;
             size: 5px;
-            margin-bottom: 20px;
-            margin-right: -1px;
+            margin-bottom: 8px;
         }
 
         
@@ -698,6 +697,9 @@ nav .fas{
         }
     }
 
+
+
+    
 
 
     

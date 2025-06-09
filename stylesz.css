@@ -533,10 +533,23 @@ footer p {
 nav .fas{
     display: none;
 }
+#sidemenu {
+    position: fixed;
+    right: -200px;
+    width: 200px;
+    transition: right 0.3s;
+}
+#sidemenu li {
+    display: block;
+    margin: 25px 0;
+}
 
 /* Mobile styles (480px and below) */
 @media only screen and (max-width: 768px) {
     /* Adjustments for mobile screens */
+    nav .fas {
+        display: block;
+    }
     header{
         background-image: url(images/okkkkkkk-removebg-preview.1.png);
         z-index: -1;     

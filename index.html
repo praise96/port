@@ -13,15 +13,15 @@
         <div class="container">
             <div class="logo">Praise's Portfolio</div>
             <nav>
-                <ul>
+                <ul id="sidemenu">
                     <li><a href="#header">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">portfolio</a></li>
                     <li><a href="#">Contact</a></li>
-                    <i class="fas fa-regular fa-circle-xmark"></i>
+                    <i class="fas fa-regular fa-circle-xmark" onclick="closeMenu()"></i>
                 </ul>
-                <i class="fas fa-solid fa-bars"></i>
+                <i class="fas fa-solid fa-bars" onclick="openMenu()"></i>
             </nav>
         </div>
     
@@ -233,5 +233,10 @@
         }
     </script>
 
+<script>
+var sidemenu = document.getElementById("sidemenu");
+function openMenu()  { sidemenu.style.right = "0"; }
+function closeMenu() { sidemenu.style.right = "-200px"; }
+</script>
 </body>
 </html>
